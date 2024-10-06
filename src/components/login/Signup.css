@@ -1,0 +1,69 @@
+/* Background and Container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../././.././../public/Gallery/bg2.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-box {
+    background: rgba(255, 255, 255, 0.8); /* White background with slight opacity */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for the box */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Form Elements */
+.signup-box h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.signup-box .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signup-box label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.signup-box input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.signup-box input:focus {
+    border-color: #4b70e2; /* Highlight color on focus */
+    outline: none;
+}
+
+.signup-box .btn-submit {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b70e2; /* Button background color */
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-box .btn-submit:hover {
+    background-color: #3a5bbf; /* Darker shade on hover */
+}

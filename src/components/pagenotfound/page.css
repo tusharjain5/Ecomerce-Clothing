@@ -1,0 +1,55 @@
+.page-not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .not-found-content {
+    margin-bottom: 2rem;
+  }
+  
+  .error-code {
+    font-size: 6rem;
+    color: #ff6b6b;
+    animation: bounce 1s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
+  
+  .error-message {
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  .error-description {
+    font-size: 1.2rem;
+    color: #868e96;
+  }
+  
+  .home-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: #343a40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #495057;
+  }
+  
+  
+  canvas {
+    background-color: #000;
+    border-radius: 10px;
+  }
+  

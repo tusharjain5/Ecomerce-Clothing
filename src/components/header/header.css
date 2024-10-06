@@ -1,0 +1,68 @@
+/* header.css */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+  animation: logoBounce 1.5s ease-in-out infinite;
+}
+
+@keyframes logoBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.cart-btn, .login-btn {
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cart-btn:hover, .login-btn:hover {
+  background-color: #d35400;
+}
+
+.cart-btn {
+  animation: bounceIn 1.5s ease infinite;
+}
+
+@keyframes bounceIn {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
