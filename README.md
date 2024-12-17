@@ -56,6 +56,9 @@ For any questions or support, feel free to reach out:
 
 Thank you for using the E-Commerce Clothing App!
 
+## License
+
+This project is licensed under the MIT License.
    
 
 
